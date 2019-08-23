@@ -8,7 +8,7 @@ module.exports = {
                 res.redirect('/');
             }
             res.render('index.ejs', {
-                title: "Welcome to the Baseball Database | View Players"
+                title: "Welcome to the Baseball Database! | View Players"
                 ,players: result
             });
         });
